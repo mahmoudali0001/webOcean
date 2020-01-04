@@ -1,0 +1,111 @@
+body {
+    background: #DDD;
+    font-family: Arial, Tahoma;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    font-weight: bold;
+    background: linear-gradient(to right, red , yellow , aqua); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+fieldset
+{
+    border: 1px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    background: darkgray;
+}
+legend
+{
+    border: 5px solid #785412;
+    background: #FFFFFF;
+    padding: 10px;
+}
+label
+{
+    padding: 8px;
+    align-content: center;
+    width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"] , input[type="password"] , input[type="email"] , textarea
+{
+    padding: 8px;
+    align-content: center;
+    width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button
+{
+    width: 300px;
+    height: 60px;
+}
+
+hr {
+    border: 1px solid #eee;
+}
+
+textarea
+{
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+tr {
+    font-family: Arial, Tahoma;
+    color: rgba(0,0,0,.5);
+    background: darkgray;
+    text-align: center;
+    text-transform: lowercase;
+    top: 15%;
+    font-weight: bold;
+    font-size: 5px;
+    letter-spacing: 0;
+
+}
+
+td {
+    font-size: 15px;
+}
+
+input.emps_text{
+    width: 300px;
+    display: inline-block;
+
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+div
+{
+    display: inline-block;
+}

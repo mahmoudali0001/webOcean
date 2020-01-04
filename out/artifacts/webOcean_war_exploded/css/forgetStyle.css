@@ -1,0 +1,55 @@
+*
+{
+    background-color: #F9F7F6;
+}
+
+div
+{
+    text-align: center;
+    width: 850px;
+    height: 500px;
+    padding: 20px;
+    margin-top:55px;
+    margin-left: 240px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 0 26px rgba(0,0,0,0.20);
+}
+
+h1
+{
+    background-color: #FFF;
+    font-size: 40px;
+    text-align: left
+}
+.ForgePassword-box
+{
+    width: 500px;
+    height: 25px;
+    font-size: 15px;
+    margin: 7px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #000;
+}
+.Forget
+{
+    width: 400px;
+    margin: 40px;
+    height: 40px;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: #3cd695;
+    color: #FFF;
+    border-radius: 10px;
+    transition: 1.5s ease;
+}
+
+.Forget:active
+{
+    transform: scale(0);
+}
